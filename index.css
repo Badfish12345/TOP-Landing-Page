@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+display: flex;
+background-color: black;
+color: white;
+align-items: center;
+justify-content: space-between;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.left img {
+display: flex;
+flex-shrink: 1;
+max-width: 50px;
+max-height: 50px;
+align-self: center;
+
+}
+
+.left h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header .left {
+display: flex;
+gap: 10px;
+margin-left: 50px;
+padding-left: 120px;
+}
+
+.header .right {
+display: flex;
+align-content: space-between;
+gap: 30px;
+margin-right: 50px;
+font-weight: bolder;
+padding-right: 160px;
+}
