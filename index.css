@@ -154,3 +154,40 @@ font-weight: bolder;
     font-size: 18px;
     padding-top: 20px;
 }
+
+.content3 {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 100px 0px;
+    font-size: 36px;
+    font-style: light italic;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.content3 .container img {
+    border: 5px;
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 200px;
+    border-color: orange;
+    border-style: solid;
+    order: 0;
+}
+
+.content3 .quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    max-height: 250px;
+    margin: 0;
+    order: 1;
+}
+
+.content3 .quote h5 {
+    display: flex;
+    align-self: flex-end;
+    margin: 0;
+}
