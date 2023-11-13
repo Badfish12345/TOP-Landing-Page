@@ -20,8 +20,7 @@ display: flex;
 flex-shrink: 0;
 max-width: 50px;
 max-height: 50px;
-align-self: center;
-
+padding-top: 15px;
 }
 
 .left h3 {
@@ -85,6 +84,13 @@ flex-shrink: 0;
     background-color: orange;
     border-radius: 8px;
     padding: 10px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
 
 .content1 img {
